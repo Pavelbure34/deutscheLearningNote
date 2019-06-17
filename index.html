@@ -3,7 +3,11 @@
     <head>
         <meta charset="utf-8"/>
         <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-        
+        <script src="./js/funcs.js"></script>
+        <script src="./js/pages.js"></script>
+        <script src="./js/vocab.js"></script>
+        <script src="./js/quiz.js"></script>
+        <script src="./js/index.js"></script>
         <link rel="stylesheet" href="./css/index.css">
         <title>deutsche tutorials</title>
     </head>
@@ -17,7 +21,7 @@
                 <div class="clearB"></div>
                 <ul class="floatL">
                     <caption>Fundamentals</caption>
-                    <li><a href="javascript:pages.day1()">day1.</a></li>
+                    <li><a href="javascript:nav.pages.day1()">day1.das alphabet</a></li>
                 </ul>
                 <ul class="floatL">
                     <caption>Beginners</caption>
@@ -26,323 +30,37 @@
                 <div class="clearB"></div>
                 <ul>
                     <caption>Vocabulary</caption>
-                    <li><a href="javascript:vocabs.day01()">day01 vocab.</a></li>
+                    <li><a href="javascript:nav.vocabs.day01()">day01 vocab.</a></li>
                 </ul>
             </nav>
         </div>
         <article id="mainArticle">
-           <h2 class="leftText">day01 Vocab</h2>
-           <div class="clearB"></div>
-           <ul class="floatL">
-               <li><emR>der Affe</emR>:<emB>monkey</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das alphabet</emR>:<emB>alphabet</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Ameise</emR>:<emB>ant</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die CD</emR>:<emB>cd</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>Caesar</emR>:<emB>Caesar</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das Camp</emR>:<emB>camp</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Elephant</emR>:<emB>elephant</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Esel</emR>:<emB>donkey</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Erdbeere</emR>:<emB>strawberry</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Geige</emR>:<emB>Violin</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Gitarre</emR>:<emB>guitar</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Geist</emR>:<emB>spirit</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das Herz</emR>:<emB>heart</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das Hund</emR>:<emB>dog</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das Haus</emR>:<emB>House</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Junge</emR>:<emB>boy</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Jacke</emR>:<emB>jacket</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Jacht</emR>:<emB>yacht</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Mond</emR>:<emB>moon</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Mantel</emR>:<emB>mantle</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Maus</emR>:<emB>mouse</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das Obst</emR>:<emB>fruit</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Opa</emR>:<emB>grandfather</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Orange</emR>:<emB>orange</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Quark</emR>:<emB>quark</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das Quadrat</emR>:<emB>quadrant</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Qualle</emR>:<emB>jellyfish</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Sonne</emR>:<emB>the Sun</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Sack</emR>:<emB>the sack</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Saft</emR>:<emB>the juice</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-           </ul>
-           <ul class="floatL">
-                <li><emR>die Banane</emR>:<emB>banana</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das Boot</emR>:<emB>submarine</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Bus</emR>:<emB>bus</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das Dach</emR>:<emB>the roof</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Dame</emR>:<emB>dame</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das Fenster</emR>:<emB>Curtain</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Fabrik</emR>:<emB>the factory</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Ferrari</emR>:<emB>ferrari</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Igle</emR>:<emB>hedgehog</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Insel</emR>:<emB>Island</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das Iglu</emR>:<emB>Igloo</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Koch</emR>:<emB>Cook</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Käse</emR>:<emB>cheese</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der König</emR>:<emB>king</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Lehrer</emR>:<emB>teacher</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Löwe</emR>:<emB>Lion</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Lampe</emR>:<emB>lamp</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das Lamm</emR>:<emB>lamb</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Nacht </emR>:<emB>night</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Nebel </emR>:<emB>side</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Nase </emR>:<emB>nose</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das Pferd</emR>:<emB>the horse</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Paprika</emR>:<emB>paprika</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Papst</emR>:<emB>pope</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Rutshe</emR>:<emB>The slide</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das Radio</emR>:<emB>the radio</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Regen</emR>:<emB>the rain</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>das Rotkäppchen</emR>:<emB>red riding hood</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Tomate</emR>:<emB></emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>der Tische</emR>:<emB>the rain</emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-                <li><emR>die Tür</emR>:<emB></emB>
-                    <div class="indented">
-                            <emB></emB>
-                    </div>
-                </li>
-            </ul>
-           <div class="clearB"></div>
+           <h2 class="centerText">day1.das alphabet</h2>
+           <section>
+                <h3 class="LeftText">Vowels</h3>
+                <ul>
+                    <li>[]</li>
+                    <li>[]</li>
+                    <li>[]</li>
+                    <li>[]</li>
+                    <li>[]</li>
+                </ul>
+           </section>
+           <section>
+                <h3 class="LeftText">Consonants</h3>
+                <ul>
+                    <li>[]</li>
+                </ul>
+           </section>
+           <section>
+                <h3 class="LeftText">Deutsche Only Special Letter</h3>
+                <ul>
+                    <li>[]</li>
+                    <li>[]</li>
+                    <li>[]</li>
+                    <li>[]</li>
+                </ul>
+           </section>
         </article>
        
         <aside>

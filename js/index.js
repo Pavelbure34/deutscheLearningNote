@@ -5,7 +5,7 @@ $(document).ready(
 )
 
 const nav = {
-    chapters:{
+    pages:{
         ot:()=>{
             $("#mainArticle").html(pages.ot);
         },
@@ -16,7 +16,7 @@ const nav = {
             $("#mainArticle").html(pages.day02);
         }
     },
-    vocab:{
+    vocabs:{
         day01:()=>{
             $("#mainArticle").html(vocabs.day01);
         },
