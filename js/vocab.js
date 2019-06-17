@@ -420,7 +420,7 @@ const vocabs = {
                         <emB></emB>\
                 </div>\
             </li>\
-            <li><emR>der Ärger</emR>:<emB>the anger</emB>\
+            <li><emR>der Ärger</emR>:<emB>the trouble</emB>\
                 <div class="indented">\
                         <emB></emB>\
                 </div>\

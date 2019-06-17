@@ -5,7 +5,7 @@ $(document).ready(
 )
 
 const nav = {
-    pages:{
+    page:{
         ot:()=>{
             $("#mainArticle").html(pages.ot);
         },
