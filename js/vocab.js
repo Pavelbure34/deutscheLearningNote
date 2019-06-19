@@ -448,5 +448,7 @@ const vocabs = {
         </ul>\
         <div class="clearB"></div>',
     day02:
+        '',
+    day03:
         ''
 }

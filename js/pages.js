@@ -79,9 +79,15 @@ const pages = {
                 </li>\
                 <li>Ü ü[U closing with e]</li>\
                 <li>Ä ä[A closing with e]</li>\
-                <li>ß ß[ss/sharp s]</li>\
+                <li>ß ß[ss/sharp s]\
+                    <ul>\
+                        <li>Always come after the long vowel</li>\
+                    </ul>\
+                </li>\
             </ul>\
         </section>',
     day02:
-        ''
+        '',
+    day03:
+        '',
 };
