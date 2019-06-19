@@ -87,7 +87,117 @@ const pages = {
             </ul>\
         </section>',
     day02:
-        '',
+        '<h2 class="leftText">day2.mixed pronounciation</h2>\
+        <section>\
+            <h3 class="centerText">Diphtonge</h3>\
+            <blockquote>\
+                Two Vowels put together to have special pronounciation.\
+            </blockquote>\
+            <div class="clearB"></div>\
+            <ul class="floatL">\
+                <li><emR>ei</emR>[<emB>ai</emB>:]\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>das <emR>Ei</emR>=<emB>the egg</emB></li>\
+                        <li>die L<emR>ei</emR>ter=<emB>the ladder</emB></li>\
+                        <li>der <emR>Ei</emR>mer=<emB>the bucket</emB></li>\
+                    </ul>\
+                </li>\
+                <li><emR>eu</emR>[<emB>oi</emB>:]\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>die <emR>Eu</emR>le=<emB>the owl</emB></li>\
+                        <li><emR>Eu</emR>ropater=<emB>europe</emB></li>\
+                        <li>das <emR>Eu</emR>ter=<emB>the udder</emB></li>\
+                    </ul>\
+                </li>\
+                <li><emR>äu</emR>[<emB>oi</emB>:] as for plural form\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>die Haut->die H<emR>äu</emR>te=<emB>the skin->skins</emB></li>\
+                        <li>die Maus->2 M<emR>äu</emR>s=<emB>the mice->two mouses</emB></li>\
+                        <li>das Haus->das H<emR>äu</emR>schen=<emB>house->houses</emB></li>\
+                    </ul>\
+                </li>'+
+                '<li><emR>sch</emR>[<emB>wie</emB>:] from shake or shut of shift\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>das <emR>Sch</emR>wein=<emB>the pig</emB></li>\
+                        <li>die <emR>Sch</emR>weiz=<emB>the Swiss</emB></li>\
+                        <li><emR>Sch</emR>wanger=<emB>pregnant</emB></li>\
+                    </ul>\
+                </li>\
+                <li><emR>st</emR>[<emB>scht</emB>:]\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li><emR>St</emR>uttgart=<emB>stuttgart</emB></li>\
+                        <li>die <emR>St</emR>raße=<emB>the street</emB></li>\
+                        <li>das <emR>St</emR>inktier=<emB>the skunk</emB></li>\
+                    </ul>\
+                </li>\
+                <li><emR>ie</emR>[long <emB>i</emB>:]\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>das Kn<emR>ie</emR>=<emB>the knee</emB></li>\
+                    </ul>\
+                </li>\
+            </ul>'+
+            '<ul class="floatL">\
+                <li><emR>sp</emR>[<emB>schp</emB>:]\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>der <emR>Sp</emR>ort=<emB>the sport</emB></li>\
+                        <li><emR>Sp</emR>anien=<emB>spain</emB></li>\
+                        <li>das <emR>Sp</emR>iel=<emB>the game</emB></li>\
+                    </ul>\
+                </li>\
+                <li><emR>ch</emR>[<emB>h</emB>: in English]\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>I<emR>ch</emR>=<emB>I</emB></li>\
+                        <li>die Bü<emR>ch</emR>er=<emB>the book</emB></li>\
+                        <li>die Kir<emR>ch</emR>e=<emB>the church</emB></li>\
+                    </ul>\
+                </li>\
+                <li><emR>ck</emR>[<emB>k</emB>: in English] Pronounce it <emB>briefly</emB>\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>die De<emR>ck</emR>e=<emB>the blanket</emB></li>\
+                        <li>die Ze<emR>ck</emR>e=<emB>the tick</emB></li>\
+                        <li>das St<emR>ü</emR>ck=<emB>the piece</emB></li>\
+                    </ul>\
+                </li>\
+                <li><emR>tz</emR>[<emB>z</emB>: in Deutsche]\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>der Scha<emR>tz</emR>=<emB>the treasure</emB></li>\
+                        <li>der Pla<emR>tz</emR>=<emB>the place</emB></li>\
+                    </ul>\
+                </li>'+
+                '<li><emR>tzt</emR>[<emB>zt</emB>:]\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>je<emR>tzt</emR>=<emB>now</emB></li>\
+                    </ul>\
+                </li>\
+                <li><emR>h in the middle</emR> make the <emB>vowel long</emB>.\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>ste<emR>h</emR>len=<emB>stealing</emB></li>\
+                        <li>se<emR>h</emR>en=<emB>seeing</emB></li>\
+                        <li>ge<emR>h</emR>en=<emB>walking</emB></li>\
+                    </ul>\
+                </li>\
+                <li><emR>two same consonant in a row</emR> make it <emB>short and closed</emR>\
+                    <ul>\
+                        <h4 class="leftText">Examples</h4>\
+                        <li>ko<emR>mm</emR>en=<emB>come!</emB></li>\
+                        <li>e<emR>ss</emR>en=<emB>eat</emB></li>\
+                    </ul>\
+                </li>\
+            </ul>\
+            <div class="clearB"></div>\
+        </section>',
     day03:
         '',
 };
