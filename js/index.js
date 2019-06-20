@@ -19,6 +19,7 @@ const nav = {
     vocabs:{
         day01:()=>{
             $("#mainArticle").html(vocabs.day01);
+            funcs.renderVocabList(vocab_db[0].second,"list1","list2");
         },
         day02:()=>{
             $("#mainArticle").html(vocabs.day02);

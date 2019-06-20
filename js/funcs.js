@@ -159,5 +159,41 @@ const funcs = {
         $(".practiceSentence").html(
             'ex)<input type="text" style="width:250px;height:30px;">'
         )
+    },
+    renderEachVocab:(first,second)=>{
+        return "<li><emphR>"+first[0]
+                 + " " + first[1] + "</emphR>" 
+                 + second[2]
+                + ": " + second[0] + ". <emphB>"
+                + second[1] + "</emphB></li>"; 
+    },
+    renderVocabList:(vocabs,list1,list2)=>{
+        $("#"+list1).html(
+            '<ul class="floatL">'
+        );
+        $("#"+list2).html(
+            '<ul class="floatL">'
+        );
+        let first,second = [];
+        for (i = 0;i < vocabs.length;i++){
+            first = vocabs[i].first().split(".");
+            second = vocabs[i].second().split(".");
+            if (i < vocabs.length / 2){
+                $("#"+list1).append(
+                    funcs.renderEachVocab(first,second)
+                )
+            }else{
+                $("#"+list2).append(
+                    funcs.renderEachVocab(first,second)
+                )
+            }
+        }
+        $("#"+list1).append(
+            '</ul>'
+        );
+        $("#"+list2).append(
+            '</ul>'
+        );
+
     }
 }

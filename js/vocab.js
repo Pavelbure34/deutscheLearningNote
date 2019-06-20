@@ -2,453 +2,190 @@ const vocabs = {
     day01:
         '<h2 class="leftText">day01 Vocab</h2>\
         <div class="clearB"></div>\
-        <ul class="floatL">\
-        <li><emR>der Affe</emR>:<emB>monkey</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das alphabet</emR>:<emB>alphabet</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Ameise</emR>:<emB>ant</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die CD</emR>:<emB>cd</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>Caesar</emR>:<emB>Caesar</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Camp</emR>:<emB>camp</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Elephant</emR>:<emB>elephant</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Esel</emR>:<emB>donkey</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Erdbeere</emR>:<emB>strawberry</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Geige</emR>:<emB>Violin</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Gitarre</emR>:<emB>guitar</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Geist</emR>:<emB>spirit</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Herz</emR>:<emB>heart</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Hund</emR>:<emB>dog</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Haus</emR>:<emB>House</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Junge</emR>:<emB>boy</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Jacke</emR>:<emB>jacket</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Jacht</emR>:<emB>yacht</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Mond</emR>:<emB>moon</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Mantel</emR>:<emB>mantle</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Maus</emR>:<emB>mouse</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Obst</emR>:<emB>fruit</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Opa</emR>:<emB>grandfather</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Orange</emR>:<emB>orange</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Quark</emR>:<emB>quark</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Quadrat</emR>:<emB>quadrant</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Qualle</emR>:<emB>jellyfish</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Sonne</emR>:<emB>the Sun</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Sack</emR>:<emB>the sack</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Saft</emR>:<emB>the juice</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>Ungarn</emR>:<emB>uganda</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Uhr</emR>:<emB>the watch</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die U-Bahn</emR>:<emB>the subway</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Wein</emR>:<emB>the wine</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Wasser</emR>:<emB>water</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Wald</emR>:<emB>the nature</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Zebra</emR>:<emB>the zebra</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Zahn</emR>:<emB>the teeth</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Zoo</emR>:<emB>the zoo</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Öl</emR>:<emB>the oil</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Ödem</emR>:<emB>the edema</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Ötzi</emR>:<emB>the Oetzi</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>fuß</emR>:<emB>foot</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>groß</emR>:<emB>big</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-        </ul>\
-        <ul class="floatL">\
-            <li><emR>die Banane</emR>:<emB>banana</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Boot</emR>:<emB>submarine</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Bus</emR>:<emB>bus</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Dach</emR>:<emB>the roof</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Dame</emR>:<emB>dame</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Fenster</emR>:<emB>Curtain</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Fabrik</emR>:<emB>the factory</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Ferrari</emR>:<emB>ferrari</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Igle</emR>:<emB>hedgehog</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Insel</emR>:<emB>Island</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Iglu</emR>:<emB>Igloo</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Koch</emR>:<emB>Cook</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Käse</emR>:<emB>cheese</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der König</emR>:<emB>king</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Lehrer</emR>:<emB>teacher</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Löwe</emR>:<emB>Lion</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Lampe</emR>:<emB>lamp</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Lamm</emR>:<emB>lamb</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Nacht </emR>:<emB>night</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Nebel </emR>:<emB>side</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Nase </emR>:<emB>nose</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Pferd</emR>:<emB>the horse</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Paprika</emR>:<emB>paprika</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Papst</emR>:<emB>pope</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Rutshe</emR>:<emB>The slide</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><em\R>das Radio</emR>:<emB>the radio</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Regen</emR>:<emB>the rain</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Rotkäppchen</emR>:<emB>red riding hood</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Tomate</emR>:<emB>the tomato</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Tische</emR>:<emB>the table</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Tür</emR>:<emB>the door</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Vogel</emR>:<emB>bird</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Vase</emR>:<emB>the vase</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Vater</emR>:<emB>father</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Volkwagen</emR>:<emB>the Volkswagen</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Xylophon</emR>:<emB>the xylophone</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Yacht</emR>:<emB>the yacht</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Volkwagen</emR>:<emB>the Volkswagen</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>das Yard</emR>:<emB>the yard</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Ärger</emR>:<emB>the trouble</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Ärmelkanal</emR>:<emB>the English Channel</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Ästhetik</emR>:<emB>the aesthetic</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>der Überfall</emR>:<emB>the raid</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-            <li><emR>die Übung</emR>:<emB>the exercise</emB>\
-                <div class="indented">\
-                        <emB></emB>\
-                </div>\
-            </li>\
-        </ul>\
+        <div id="list1" class="floatL"></div>\
+        <div id="list2" class="floatL"></div>\
         <div class="clearB"></div>',
     day02:
         '',
     day03:
         ''
 }
+
+const vocab_db = [
+    {
+        id:1,
+        vocabs:[
+            {
+                first:"der.Affe",
+                second:"Noun.the monkey.[affe:]"
+            },
+            {
+                first:"die.Ameise",
+                second:"Noun.the ant.[amaize:]"
+            },
+            {
+                first:"das.alphabet",
+                second:"Noun.the alphabet.[alphabet:]"
+            },
+            {
+                first:"die.CD",
+                second:"Noun.the CD.[chede:]"
+            },
+            {
+                first:"Caesar",
+                second:"Noun.caesar.[chesar:]"
+            },
+            {
+                first:"das.Camp",
+                second:"Noun.the camp.[camp:]"
+            },
+            {
+                first:"der.Elephant",
+                second:"Noun.the elephant.[elephan:]"
+            },
+            {
+                first:"der.Esel",
+                second:"Noun.the donkey.[esel:]"
+            },
+            {
+                first:"die.Erdbeere",
+                second:"Noun.the strawberry.[e-athbe-akh:]"
+            },
+            {
+                first:"die.Geige",
+                second:"Noun.the violin.[gaige:]"
+            },
+            {
+                first:"die.Gitarre",
+                second:"Noun.the guitar.[gitajh:]"
+            },
+            {
+                first:"der.Geist",
+                second:"Noun.the spirit.[gaist:]"
+            },
+            {
+                first:"das.Herz",
+                second:"Noun.the heart.[he-a-z:]"
+            },
+            {
+                first:"das.Haus",
+                second:"Noun.the house.[hous:]"
+            },
+            {
+                first:"das.Hund",
+                second:"Noun.the dog.[hundt:]"
+            },
+            {
+                first:"der.Junge",
+                second:"Noun.the boy.[Yung-a:]"
+            },
+            {
+                first:"die.Jacke",
+                second:"Noun.the jacket.[Ya-ke:]"
+            },
+            {
+                first:"die.Jacht",
+                second:"Noun.the yacht.[Ya-kht:]"
+            },
+            {
+                first:"der.Mond",
+                second:"Noun.the moon.[Meaun:]"
+            },
+            {
+                first:"der.Mantel",
+                second:"Noun.the mantel.[Mahn-tle:]"
+            },
+            {
+                first:"die.Maus",
+                second:"Noun.the mouse.[mous:]"
+            },
+            {
+                first:"das.Obst",
+                second:"Noun.the fruit.[o-hst:]"
+            },
+            {
+                first:"der.Opa",
+                second:"Noun.the grandfather.[opa:]"
+            },
+            {
+                first:"die.Orange",
+                second:"Noun.the orange.[o-han-ge:]"
+            },
+            {
+                first:"der.Quark",
+                second:"Noun.the quark.[qua-hh-k:]"
+            },
+            {"das.Quadrat":"Noun.the quadrant.[]"},
+            {"die.Qualle":"Noun.the jellyfish.[ku-vale:]"},
+            {"die.Sonne":"Noun.the Sun.[Sonneh:]"},
+            {"der.Sack":"Noun.the sack.[zah-ck:]"},
+            {"der.Saft":"Noun. the juice.[zah-ft:]"},
+            {"Ungarn":"Noun.Uganda.[Ung-gahn:]"},
+            {"die.Uhr":"Noun.the watch.[oo-uh:]"},
+            {"die.U-Bahn":"Noun.the subway.[oo-bahn:]"},
+            {"der.wein":"Noun.the wine.[vine:]"},
+            {"der.Wasser":"Noun.the water.[vah-ssah:]"},
+            {"der.Wald":"Noun.the nature.[Vah-ld:]"},
+            {"das.Zebra":"Noun.the zebra.[cheh-bra:]"},
+            {"der.Zahn":"Noun.the tooth.[chahn:]"},
+            {"der.Zoo":"Noun.the zoo.[cheu-oo:]"},
+            {"das.Öl":"Noun.the oil.[Oe-l:]"},
+            {"das.Ödem":"Noun.the edema.[oe-dem:]"},
+            {"der.Ötzi":"Noun.the oetzi.[oetzi:]"},
+            {"fuß":"Noun.foot.[foo-z:]"},
+            {"groß":"Adjective.big.[g-hoos:]"},
+            {"die.Banane":"Noun.the banana.[banana:]"},
+            {"das.Boot":"Noun.the submarine.[boh-t:]"},
+            {"der.Bus":"Noun.the bus.[boos:]"},
+            {"das.Dach":"Noun.the roof.[Da-kh:]"},
+            {"die.Dame":"Noun.the lady.[Dah-muh:]"},
+            {"das.Fenster":"Noun.the curtain.[Fen-steh:]"},
+            {"die.Fabrik":"Noun.the factory.[fab-hrik:]"},
+            {"der.Ferrari":"Noun.the ferrari.[feh-hakh:]"},
+            {"der.Igle":"Noun.the hedgehog.[igle:]"},
+            {"die.Insel":"Noun.the island.[insle:]"},
+            {"das.Iglu":"Noun.the igloo.[iglu:]"},
+            {"der.Koch":"Noun.the cook.[koh-ck:]"},
+            {"der.Käse":"Noun.the cheese.[kaeze:]"},
+            {"der.König":"Noun.the king.[koenig:]"},
+            {"der.Lehrer":"Noun.the teacher.[leh-heh:]"},
+            {"der.Löwe":"Noun.the lion.[loeve:]"},
+            {"die.Lampe":"Noun.the lamp.[lahm-pah:]"},
+            {"das.Lamm":"Noun.the lamb.[lahm:]"},
+            {"die.Nacht":"Noun.the night.[Nah-kht:]"},
+            {"der.Nebel":"Noun.the side.[Neible:]"},
+            {"die.Nase":"Noun.the nose.[Nah-ze:]"},
+            {"das.Pferd":"Noun.the bird.[feh-ah-t:]"},
+            {"der.Paprika":"Noun.the paprika.[paprika:]"},
+            {"der.Papst":"Noun.the Pope.[Pahps:]"},
+            {"die.Rutsche":"Noun.the slide.[huh-sheh:]"},
+            {"das.Radio":"Noun.the radio.[hadio:]"},
+            {"der Regen":"Noun.the rain.[hegen:]"},
+            {"das.Rotkäppchen":"Noun.the red riding hood.[hot-capchen:]"},
+            {"die.Tomate":"Noun.the tomato.[toh-mah-toh:]"},
+            {"der.Tische":"Noun.the table.[Tis-she:]"},
+            {"die.Tür":"Noun.the door.[too-uh:]"},
+            {"der.Vogel":"Noun.the bird.[fo-gehl:]"},
+            {"die.Vase":"Noun.the vase.[vah-ze:]"},
+            {"der.Vater":"Noun.the father.[fa-tah:]"},
+            {"der.Volkswagen":"Noun.the Volkswagen.[Folksvagen:]"},
+            {"das.Xylophon":"Noun.the xylophon.[cylofon:]"},
+            {"die.Yacht":"Noun.the boat.[ya-kt:]"},
+            {"das.Yard":"Noun.the yard.[yah-d:]"},
+            {"der.Ärger":"Noun.the Trouble.[Aeh-geh:]"},
+            {"der Ärmelkanal":"Noun.the English channel.[ae-h-mel-kah-nal:]"},
+            {"die.Ästhetik":"Noun.the aesthetic.[aesthetic:]"},
+            {"der Überfall":"Noun.the raid.[ue-beh-fell:]"},
+            {"die Übung":"Noun.the exercise.[ue-beng:]"}
+        ]
+    },
+    {
+        id:2,
+        vocabs:[
+            {
+                first:"",
+                second:""
+            }
+        ]
+    }
+]
