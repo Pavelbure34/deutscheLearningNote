@@ -6,8 +6,14 @@ const vocabs = {
         <div id="list2" class="floatL"></div>\
         <div class="clearB"></div>',
     day02:
-        '',
+        '<h2 class="leftText">day02 Vocab</h2>\
+        <div class="clearB"></div>\
+        <div id="list1" class="floatL"></div>\
+        <div id="list2" class="floatL"></div>\
+        <div class="clearB"></div>',
     day03:
+        '',
+    day04:
         ''
 }
 
@@ -16,175 +22,614 @@ const vocab_db = [
         id:1,
         vocabs:[
             {
+                key:1,
                 first:"der.Affe",
                 second:"Noun.the monkey.[affe:]"
             },
             {
+                key:2,
                 first:"die.Ameise",
                 second:"Noun.the ant.[amaize:]"
             },
             {
+                key:3,
                 first:"das.alphabet",
                 second:"Noun.the alphabet.[alphabet:]"
             },
             {
+                key:4,
                 first:"die.CD",
                 second:"Noun.the CD.[chede:]"
             },
             {
+                key:5,
                 first:"Caesar",
                 second:"Noun.caesar.[chesar:]"
             },
             {
+                key:6,
                 first:"das.Camp",
                 second:"Noun.the camp.[camp:]"
             },
             {
+                key:7,
                 first:"der.Elephant",
                 second:"Noun.the elephant.[elephan:]"
             },
             {
+                key:8,
                 first:"der.Esel",
                 second:"Noun.the donkey.[esel:]"
             },
             {
+                key:9,
                 first:"die.Erdbeere",
                 second:"Noun.the strawberry.[e-athbe-akh:]"
             },
             {
+                key:10,
                 first:"die.Geige",
                 second:"Noun.the violin.[gaige:]"
             },
             {
+                key:11,
                 first:"die.Gitarre",
                 second:"Noun.the guitar.[gitajh:]"
             },
             {
+                key:12,
                 first:"der.Geist",
                 second:"Noun.the spirit.[gaist:]"
             },
             {
+                key:13,
                 first:"das.Herz",
                 second:"Noun.the heart.[he-a-z:]"
             },
             {
+                key:14,
                 first:"das.Haus",
                 second:"Noun.the house.[hous:]"
             },
             {
+                key:15,
                 first:"das.Hund",
                 second:"Noun.the dog.[hundt:]"
             },
             {
+                key:16,
                 first:"der.Junge",
                 second:"Noun.the boy.[Yung-a:]"
             },
             {
+                key:17,
                 first:"die.Jacke",
                 second:"Noun.the jacket.[Ya-ke:]"
             },
             {
+                key:18,
                 first:"die.Jacht",
                 second:"Noun.the yacht.[Ya-kht:]"
             },
             {
+                key:19,
                 first:"der.Mond",
                 second:"Noun.the moon.[Meaun:]"
             },
             {
+                key:20,
                 first:"der.Mantel",
                 second:"Noun.the mantel.[Mahn-tle:]"
             },
             {
+                key:21,
                 first:"die.Maus",
                 second:"Noun.the mouse.[mous:]"
             },
             {
+                key:22,
                 first:"das.Obst",
                 second:"Noun.the fruit.[o-hst:]"
             },
             {
+                key:23,
                 first:"der.Opa",
                 second:"Noun.the grandfather.[opa:]"
             },
             {
+                key:24,
                 first:"die.Orange",
                 second:"Noun.the orange.[o-han-ge:]"
             },
             {
+                key:25,
                 first:"der.Quark",
                 second:"Noun.the quark.[qua-hh-k:]"
             },
-            {"das.Quadrat":"Noun.the quadrant.[]"},
-            {"die.Qualle":"Noun.the jellyfish.[ku-vale:]"},
-            {"die.Sonne":"Noun.the Sun.[Sonneh:]"},
-            {"der.Sack":"Noun.the sack.[zah-ck:]"},
-            {"der.Saft":"Noun. the juice.[zah-ft:]"},
-            {"Ungarn":"Noun.Uganda.[Ung-gahn:]"},
-            {"die.Uhr":"Noun.the watch.[oo-uh:]"},
-            {"die.U-Bahn":"Noun.the subway.[oo-bahn:]"},
-            {"der.wein":"Noun.the wine.[vine:]"},
-            {"der.Wasser":"Noun.the water.[vah-ssah:]"},
-            {"der.Wald":"Noun.the nature.[Vah-ld:]"},
-            {"das.Zebra":"Noun.the zebra.[cheh-bra:]"},
-            {"der.Zahn":"Noun.the tooth.[chahn:]"},
-            {"der.Zoo":"Noun.the zoo.[cheu-oo:]"},
-            {"das.Öl":"Noun.the oil.[Oe-l:]"},
-            {"das.Ödem":"Noun.the edema.[oe-dem:]"},
-            {"der.Ötzi":"Noun.the oetzi.[oetzi:]"},
-            {"fuß":"Noun.foot.[foo-z:]"},
-            {"groß":"Adjective.big.[g-hoos:]"},
-            {"die.Banane":"Noun.the banana.[banana:]"},
-            {"das.Boot":"Noun.the submarine.[boh-t:]"},
-            {"der.Bus":"Noun.the bus.[boos:]"},
-            {"das.Dach":"Noun.the roof.[Da-kh:]"},
-            {"die.Dame":"Noun.the lady.[Dah-muh:]"},
-            {"das.Fenster":"Noun.the curtain.[Fen-steh:]"},
-            {"die.Fabrik":"Noun.the factory.[fab-hrik:]"},
-            {"der.Ferrari":"Noun.the ferrari.[feh-hakh:]"},
-            {"der.Igle":"Noun.the hedgehog.[igle:]"},
-            {"die.Insel":"Noun.the island.[insle:]"},
-            {"das.Iglu":"Noun.the igloo.[iglu:]"},
-            {"der.Koch":"Noun.the cook.[koh-ck:]"},
-            {"der.Käse":"Noun.the cheese.[kaeze:]"},
-            {"der.König":"Noun.the king.[koenig:]"},
-            {"der.Lehrer":"Noun.the teacher.[leh-heh:]"},
-            {"der.Löwe":"Noun.the lion.[loeve:]"},
-            {"die.Lampe":"Noun.the lamp.[lahm-pah:]"},
-            {"das.Lamm":"Noun.the lamb.[lahm:]"},
-            {"die.Nacht":"Noun.the night.[Nah-kht:]"},
-            {"der.Nebel":"Noun.the side.[Neible:]"},
-            {"die.Nase":"Noun.the nose.[Nah-ze:]"},
-            {"das.Pferd":"Noun.the bird.[feh-ah-t:]"},
-            {"der.Paprika":"Noun.the paprika.[paprika:]"},
-            {"der.Papst":"Noun.the Pope.[Pahps:]"},
-            {"die.Rutsche":"Noun.the slide.[huh-sheh:]"},
-            {"das.Radio":"Noun.the radio.[hadio:]"},
-            {"der Regen":"Noun.the rain.[hegen:]"},
-            {"das.Rotkäppchen":"Noun.the red riding hood.[hot-capchen:]"},
-            {"die.Tomate":"Noun.the tomato.[toh-mah-toh:]"},
-            {"der.Tische":"Noun.the table.[Tis-she:]"},
-            {"die.Tür":"Noun.the door.[too-uh:]"},
-            {"der.Vogel":"Noun.the bird.[fo-gehl:]"},
-            {"die.Vase":"Noun.the vase.[vah-ze:]"},
-            {"der.Vater":"Noun.the father.[fa-tah:]"},
-            {"der.Volkswagen":"Noun.the Volkswagen.[Folksvagen:]"},
-            {"das.Xylophon":"Noun.the xylophon.[cylofon:]"},
-            {"die.Yacht":"Noun.the boat.[ya-kt:]"},
-            {"das.Yard":"Noun.the yard.[yah-d:]"},
-            {"der.Ärger":"Noun.the Trouble.[Aeh-geh:]"},
-            {"der Ärmelkanal":"Noun.the English channel.[ae-h-mel-kah-nal:]"},
-            {"die.Ästhetik":"Noun.the aesthetic.[aesthetic:]"},
-            {"der Überfall":"Noun.the raid.[ue-beh-fell:]"},
-            {"die Übung":"Noun.the exercise.[ue-beng:]"}
+            {
+                key:26,
+                first:"das.Quadrat",
+                second:"Noun.the quadrant.[quad-h-ah-t]"
+            },
+            {
+                key:27,
+                first:"die.Qualle",
+                second:"Noun.the jellyfish.[ku-vale:]"
+            },
+            {
+                key:28,
+                first:"die.Sonne",
+                second:"Noun.the Sun.[Sonneh:]"
+            },
+            {
+                key:29,
+                first:"der.Sack",
+                second:"Noun.the sack.[zah-ck:]"
+            },
+            {
+                key:30,
+                first:"der.Saft",
+                second:"Noun. the juice.[zah-ft:]"
+            },
+            {
+                key:31,
+                first:"Ungarn",
+                second:"Noun.Uganda.[Ung-gahn:]"
+            },
+            {
+                key:32,
+                first:"die.Uhr",
+                second:"Noun.the watch.[oo-uh:]"
+            },
+            {
+                key:33,
+                first:"die.U-Bahn",
+                second:"Noun.the subway.[oo-bahn:]"
+            },
+            {
+                key:34,
+                first:"der.wein",
+                second:"Noun.the wine.[vine:]"
+            },
+            {
+                key:35,
+                first:"der.Wasser",
+                second:"Noun.the water.[vah-ssah:]"
+            },
+            {
+                key:36,
+                first:"der.Wald",
+                second:"Noun.the nature.[Vah-ld:]"
+            },
+            {
+                key:37,
+                first:"das.Zebra",
+                second:"Noun.the zebra.[cheh-bra:]"
+            },
+            {
+                key:38,
+                first:"der.Zahn",
+                second:"Noun.the tooth.[chahn:]"
+            },
+            {
+                key:39,
+                first:"der.Zoo",
+                second:"Noun.the zoo.[cheu-oo:]"
+            },
+            {
+                key:40,
+                first:"das.Öl",
+                second:"Noun.the oil.[Oe-l:]"
+            },
+            {
+                key:41,
+                first:"das.Ödem",
+                second:"Noun.the edema.[oe-dem:]"
+            },
+            {
+                key:42,
+                first:"der.Ötzi",
+                second:"Noun.the oetzi.[oetzi:]"
+            },
+            {
+                key:43,
+                first:"fuß",
+                second:"Noun.foot.[foo-z:]"
+            },
+            {
+                key:44,
+                first:"groß",
+                second:"Adjective.big.[g-hoos:]"
+            },
+            {
+                key:45,
+                first:"die.Banane",
+                second:"Noun.the banana.[banana:]"
+            },
+            {
+                key:46,
+                first:"das.Boot",
+                second:"Noun.the submarine.[boh-t:]"
+            },
+            {
+                key:47,
+                first:"der.Bus",
+                second:"Noun.the bus.[boos:]"
+            },
+            {
+                key:48,
+                first:"das.Dach",
+                second:"Noun.the roof.[Da-kh:]"
+            },
+            {
+                key:49,
+                first:"die.Dame",
+                second:"Noun.the lady.[Dah-muh:]"
+            },
+            {
+                key:50,
+                first:"das.Fenster",
+                second:"Noun.the curtain.[Fen-steh:]"
+            },
+            {
+                key:51,
+                first:"die.Fabrik",
+                second:"Noun.the factory.[fab-hrik:]"
+            },
+            {
+                key:52,
+                first:"der.Ferrari",
+                second:"Noun.the ferrari.[feh-hakh:]"
+            },
+            {
+                key:53,
+                first:"der.Igle",
+                second:"Noun.the hedgehog.[igle:]"
+            },
+            {
+                key:54,
+                first:"die.Insel",
+                second:"Noun.the island.[insle:]"
+            },
+            {
+                key:55,
+                first:"das.Iglu",
+                second:"Noun.the igloo.[iglu:]"
+            },
+            {
+                key:56,
+                first:"der.Koch",
+                second:"Noun.the cook.[koh-ck:]"
+            },
+            {
+                key:57,
+                first:"der.Käse",
+                second:"Noun.the cheese.[kaeze:]"
+            },
+            {
+                key:58,
+                first:"der.König",
+                second:"Noun.the king.[koenig:]"
+            },
+            {
+                key:59,
+                first:"der.Lehrer",
+                second:"Noun.the teacher.[leh-heh:]"
+            },
+            {
+                key:60,
+                first:"der.Löwe",
+                second:"Noun.the lion.[loeve:]"
+            },
+            {
+                key:61,
+                first:"die.Lampe",
+                second:"Noun.the lamp.[lahm-pah:]"
+            },
+            {
+                key:62,
+                first:"das.Lamm",
+                second:"Noun.the lamb.[lahm:]"
+            },
+            {
+                key:63,
+                first:"die.Nacht",
+                second:"Noun.the night.[Nah-kht:]"
+            },
+            {
+                key:64,
+                first:"der.Nebel",
+                second:"Noun.the side.[Neible:]"
+            },
+            {
+                key:65,
+                first:"die.Nase",
+                second:"Noun.the nose.[Nah-ze:]"
+            },
+            {
+                key:66,
+                first:"das.Pferd",
+                second:"Noun.the horse.[feh-ah-t:]"
+            },
+            {
+                key:67,
+                first:"der.Paprika",
+                second:"Noun.the paprika.[paprika:]"
+            },
+            {
+                key:68,
+                first:"der.Papst",
+                second:"Noun.the Pope.[Pahps:]"
+            },
+            {
+                key:69,
+                first:"die.Rutsche",
+                second:"Noun.the slide.[huh-sheh:]"
+            },
+            {
+                key:70,
+                first:"das.Radio",
+                second:"Noun.the radio.[hadio:]"
+            },
+            {
+                key:71,
+                first:"der.Regen",
+                second:"Noun.the rain.[hegen:]"
+            },
+            {
+                key:72,
+                first:"das.Rotkäppchen",
+                second:"Noun.the red riding hood.[hot-capchen:]"
+            },
+            {
+                key:73,
+                first:"die.Tomate",
+                second:"Noun.the tomato.[toh-mah-toh:]"
+            },
+            {
+                key:74,
+                first:"der.Tische",
+                second:"Noun.the table.[Tis-she:]"
+            },
+            {
+                key:75,
+                first:"die.Tür",
+                second:"Noun.the door.[too-uh:]"
+            },
+            {
+                key:76,
+                first:"der.Vogel",
+                second:"Noun.the bird.[fo-gehl:]"
+            },
+            {
+                key:77,
+                first:"die.Vase",
+                second:"Noun.the vase.[vah-ze:]"
+            },
+            {
+                key:78,
+                first:"der.Vater",
+                second:"Noun.the father.[fa-tah:]"
+            },
+            {
+                key:79,
+                first:"der.Volkswagen",
+                second:"Noun.the Volkswagen.[Folksvagen:]"
+            },
+            {
+                key:80,
+                first:"das.Xylophon",
+                second:"Noun.the xylophon.[cylofon:]"
+            },
+            {
+                key:81,
+                first:"die.Yacht",
+                second:"Noun.the boat.[ya-kt:]"
+            },
+            {
+                key:82,
+                first:"das.Yard",
+                second:"Noun.the yard.[yah-d:]"
+            },
+            {
+                key:83,
+                first:"der.Ärger",
+                second:"Noun.the Trouble.[Aeh-geh:]"
+            },
+            {
+                key:84,
+                first:"der.Ärmelkanal",
+                second:"Noun.the English channel.[ae-h-mel-kah-nal:]"
+            },
+            {
+                key:85,
+                first:"die.Ästhetik",
+                second:"Noun.the aesthetic.[aesthetic:]"
+            },
+            {
+                key:86,
+                first:"der.Überfall",
+                second:"Noun.the raid.[ue-beh-fell:]"
+            },
+            {
+                key:87,
+                first:"die.Übung",
+                second:"Noun.the exercise.[ue-beng:]"
+            }
         ]
     },
     {
         id:2,
         vocabs:[
             {
-                first:"",
-                second:""
+                key:1,
+                first:"das.Ei",
+                second:"Noun.the egg.[ai]"
+            },
+            {
+                key:2,
+                first:"die.Leiter",
+                second:"Noun.the ladder.[laiteh]"
+            },
+            {
+                key:3,
+                first:"der.Eimer",
+                second:"Noun.the bucket.[Aimeh]"
+            },
+            {
+                key:4,
+                first:"der.Sport",
+                second:"Noun.the sport.[shupoh-t]"
+            },
+            {
+                key:5,
+                first:"Spanien",
+                second:"Noun.spain.[shupanien]"
+            },
+            {
+                key:6,
+                first:"das Spiel",
+                second:"Noun.the game.[shupeel]"
+            },
+            {
+                key:7,
+                first:"die eule",
+                second:"Noun.the owl.[oileh]"
+            },
+            {
+                key:8,
+                first:"Europa",
+                second:"Noun.Eruope.[oihopa]"
+            },
+            {
+                key:9,
+                first:"das.Euter",
+                second:"Noun.the udder.[oiteh]"
+            },
+            {
+                key:10,
+                first:"Ich",
+                second:"Noun.I(subject form of self).[eahch]"
+            },
+            {
+                key:11,
+                first:"die.Bücher",
+                second:"Noun.the book.[buehcheh]"
+            },
+            {
+                key:12,
+                first:"die.Kirche",
+                second:"Noun.the church.[kih-skh]"
+            },
+            {
+                key:13,
+                first:"die.Häute",
+                second:"Noun.the skins.[hoiteh]"
+            },
+            {
+                key:14,
+                first:"die.Haut",
+                second:"Noun.the skin.[heauht]"
+            },
+            {
+                key:15,
+                first:"die.Maus",
+                second:"Noun.the mouse.[mouse]"
+            },
+            {
+                key:16,
+                first:"die.Mäus",
+                second:"Noun.the mice.[mois]"
+            },
+            {
+                key:17,
+                first:"das.Häuschen",
+                second:"Noun.the houses.[hoishen]"
+            },
+            {
+                key:18,
+                first:"das.Haus",
+                second:"Noun.the house.[house]"
+            },
+            {
+                key:19,
+                first:"die.Decke",
+                second:"Noun.the blanket.[deck]"
+            },
+            {
+                key:20,
+                first:"die.Zecke",
+                second:"Noun.the tick.[check]"
+            },
+            {
+                key:21,
+                first:"das.Stück",
+                second:"Noun.the piece.[schuetick]"
+            },
+            {
+                key:22,
+                first:"das.Schwein",
+                second:"Noun.the pig.[shuvain]"
+            },
+            {
+                key:23,
+                first:"die.Schweiz",
+                second:"Noun.Switzerland.[shuvaitze]"
+            },
+            {
+                key:24,
+                first:"Schwanger",
+                second:"Adjective.pregnant.[shuwangeh]"
+            },
+            {
+                key:25,
+                first:"Stuttgart",
+                second:"Noun.stuttgart.[shutugaht]"
+            },
+            {
+                key:26,
+                first:"die.Straße",
+                second:"Noun.the street.[shutuga-zeh]"
+            },
+            {
+                key:27,
+                first:"das.Stinktier",
+                second:"Noun.the skunk.[shutin-tieh]"
+            },
+            {
+                key:28,
+                first:"jetzt",
+                second:"Noun.now.[ye-cheu-t]"
+            },
+            {
+                key:29,
+                first:"das.Knie",
+                second:"Noun.the knee.[ku-nee]"
+            },
+            {
+                key:30,
+                first:"stehlen",
+                second:"Verb-ing Form.stealing[shu-tae-len]"
+            },
+            {
+                key:31,
+                first:"sehen",
+                second:"Verb-ing form.seeing.[seh-en]"
+            },
+            {
+                key:32,
+                first:"gehen",
+                second:"Verb-ing form.walking.[geh-en]"
+            },
+            {
+                key:33,
+                first:"commen",
+                second:"Verb regu form.come.[co-men]"
+            },
+            {
+                key:34,
+                first:"essen",
+                second:"Verb reg form.eat.[es-en]"
             }
         ]
     }

@@ -161,24 +161,25 @@ const funcs = {
         )
     },
     renderEachVocab:(first,second)=>{
-        return "<li><emphR>"+first[0]
-                 + " " + first[1] + "</emphR>" 
+        return (first.length === 2)?"<li><emR>"+first[0]
+                 + " " + first[1] + "</emR>" 
                  + second[2]
-                + ": " + second[0] + ". <emphB>"
-                + second[1] + "</emphB></li>"; 
+                + ": " + second[0] + ". <emB>"
+                + second[1] + "</emB></li>":
+                "<li><emR>"+first[0]
+                 + "</emR>" + second[2]
+                + ": " + second[0] + ". <emB>"
+                + second[1] + "</emB></li>"; 
     },
     renderVocabList:(vocabs,list1,list2)=>{
-        $("#"+list1).html(
-            '<ul class="floatL">'
-        );
-        $("#"+list2).html(
-            '<ul class="floatL">'
-        );
+        $("#"+list1).html('<ul>');
+        $("#"+list2).html('<ul>');
         let first,second = [];
-        for (i = 0;i < vocabs.length;i++){
-            first = vocabs[i].first().split(".");
-            second = vocabs[i].second().split(".");
-            if (i < vocabs.length / 2){
+        let size = vocabs.length;
+        for (i = 0;i < size;i++){
+            first = vocabs[i].first.split(".");
+            second = vocabs[i].second.split(".");
+            if (i < size / 2){
                 $("#"+list1).append(
                     funcs.renderEachVocab(first,second)
                 )
@@ -188,12 +189,8 @@ const funcs = {
                 )
             }
         }
-        $("#"+list1).append(
-            '</ul>'
-        );
-        $("#"+list2).append(
-            '</ul>'
-        );
+        $("#"+list1).append('</ul>');
+        $("#"+list2).append('</ul>');
 
     }
 }

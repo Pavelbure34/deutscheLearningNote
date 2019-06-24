@@ -14,15 +14,22 @@ const nav = {
         },
         day02:()=>{
             $("#mainArticle").html(pages.day02);
-        }
+        },
+        day03:()=>{
+            $("#mainArticle").html(pages.day03);
+        },
     },
     vocabs:{
         day01:()=>{
             $("#mainArticle").html(vocabs.day01);
-            funcs.renderVocabList(vocab_db[0].second,"list1","list2");
+            funcs.renderVocabList(vocab_db[0].vocabs,"list1","list2");
         },
         day02:()=>{
             $("#mainArticle").html(vocabs.day02);
+            funcs.renderVocabList(vocab_db[1].vocabs,"list1","list2");
+        },
+        day03:()=>{
+            $("#mainArticle").html(vocabs.day03);
         }
     },
     quiz:{
