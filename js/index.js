@@ -18,6 +18,9 @@ const nav = {
         day03:()=>{
             $("#mainArticle").html(pages.day03);
         },
+        day04:()=>{
+            $("#mainArticle").html(pages.day04);
+        }
     },
     vocabs:{
         day01:()=>{
@@ -30,6 +33,9 @@ const nav = {
         },
         day03:()=>{
             $("#mainArticle").html(vocabs.day03);
+        },
+        day04:()=>{
+            $("#mainArticle").html(vocabs.day04);
         }
     },
     quiz:{

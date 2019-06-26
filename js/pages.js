@@ -200,4 +200,8 @@ const pages = {
         </section>',
     day03:
         '',
+    day04:
+        '',
+    day05:
+        '',
 };

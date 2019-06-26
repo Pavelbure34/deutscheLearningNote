@@ -14,6 +14,8 @@ const vocabs = {
     day03:
         '',
     day04:
+        '',
+    day05:
         ''
 }
 
