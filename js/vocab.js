@@ -634,5 +634,55 @@ const vocab_db = [
                 second:"Verb reg form.eat.[es-en]"
             }
         ]
+    },
+    {
+        id:3,
+        vocabs:[
+            {
+                key:1,
+                first:"Vokabular",
+                second:"Noun.vocabulary.[vokabulah]"
+            },
+            {
+                key:2,
+                first:"Name",
+                second:"Noun.name.[Nah-meh]"
+            },
+            {
+                key:3,
+                first:"alt",
+                second:"Noun.~old.[ah-lt]"
+            },
+            {
+                key:4,
+                first:"wenig",
+                second:"Adjective.little.[ve-nig]"
+            },
+            {
+                key:5,
+                first:"jahre",
+                second:"Noun.year.[Yah-heu]"
+            },
+            {
+                key:6,
+                first:"Deutsch",
+                second:"Noun.German.[Doi-chi]"
+            },
+            {
+                key:5,
+                first:"Japanisch",
+                second:"Noun.Japanese.[Yah-pah-nischi]"
+            },
+            {
+                key:5,
+                first:"Englisch",
+                second:"Noun.English.[Aeh-nglish]"
+            },
+            {
+                key:5,
+                first:"Russisch",
+                second:"Noun.Russian.[Huh-schi]"
+            },
+        ]
     }
 ]
