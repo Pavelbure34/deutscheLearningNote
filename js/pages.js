@@ -199,7 +199,145 @@ const pages = {
             <div class="clearB"></div>\
         </section>',
     day03:
-        '',
+        '<h2 class="leftText">day03.Self-introduction and others</h2>\
+        <section>\
+            <h3 class="centerText">Self-introduction</h3>\
+            <div>\
+                When giving the first word to the person,\
+                <blockquote>\
+                    Guten Tag! Mein name ist ~~~\
+                    <div class="indented">\
+                        Good Day! My name is ~~~.\
+                    </div>\
+                </blockquote>\
+                When you want to express your age,\
+                <blockquote>\
+                    Ich bin ~~ jahre alt.\
+                    <div class="indented">\
+                        I am ~~~ years old.\
+                    </div>\
+                </blockquote>\
+            </div>\
+            <div>'+  
+                'When you want to say where you are from and explain your home time is from..\
+                <blockquote>\
+                    Ich komme aus ~~~.\
+                    <div class="indented">\
+                        I am from ~~~.\
+                    </div>\
+                    ~~~ ist in ~~~.\
+                    <div class="indented">\
+                        ~~~ is in ~~~.\
+                    </div>\
+                </blockquote>\
+            </div>\
+        </section>\
+        <section>\
+            <h3 class="centerText">Asking others</h3>\
+            <div>\
+                When you wanna ask other&rsquo;s name\
+                <blockquote>\
+                    Wie ist dein name?\
+                    <div class="indented">\
+                        What is your name?\
+                    </div>\
+                    Mein Name ist ~~~.\
+                    <div class="indented">\
+                        My name is ~~~.\
+                    </div>\
+                </blockquote>\
+                or...'+
+                '<blockquote>\
+                    Wer bist du?\
+                    <div class="indented">\
+                        Who are you?\
+                    </div>\
+                    Ich bin ~~~.\
+                    <div class="indented">\
+                        I am ~~~.\
+                    </div>\
+                </blockquote>\
+                or...'+
+                '<blockquote>\
+                    Wie heißt du?\
+                    <div class="indented">\
+                        what is your name?\
+                    </div>\
+                    Ich heiße ~~~.\
+                    <div class="indented">\
+                        My name is ~~~.\
+                    </div>\
+                </blockquote>\
+            </div>\
+            <div>\
+                When you ask how old they are!\
+                <blockquote>\
+                    Wie alt sind sie?/Wie alt bist du?'+
+                    '<div class="indented">\
+                        how old are you?\
+                    </div>\
+                    Ich bin ~~~ jahre alt\
+                    <div class="indented">\
+                        I am ~~~ years old.\
+                    </div>\
+                </blockquote>\
+            </div>\
+        </section>'+
+        '<section>\
+            When asking languages your partner speaks\
+            <blockquote>\
+                Welche Sprachen sprichst Du?/Welche Sprachen sprechen Sie?\
+                <div class="indented">\
+                    Which language do you speak?\
+                </div>'+
+                'Ich spreche Englisch, Japanisch, und ein wenig Deutsch.\
+                <div class="indented">\
+                    I speak english,Japanese, and little German.\
+                </div>\
+            </blockquote>\
+        </section>\
+        <section>\
+            <h3 class="centerText">Examples</h3>\
+            <section>\
+                <h4>Conversation between Rodrigo, Alexander and Mister Yang</h4>\
+                <blockquote>\
+                    <ul class="noBulletPt">'+
+                        '<li>Wie Geht es Dir? = how are you?</li>\
+                        <li>Es Geht mir gut! = I am fine!</li>\
+                        <li>Wie alt bist du Rodrigo? = How old are you, Rodrigo?</li>\
+                        <li>Ich bin ~~ Jahre alt. Und du? I am ~~ years old. and you?</li>\
+                        <li>Ich bin ~~ jahre alt. Welche Sprachen sprichst Du?\
+                            =I am ~~ years old. \
+                        </li>\
+                        <li>Ich spreche Spanisch, Englisch, und ein wenig Duetsch.\
+                            =I speak Spanish, English, and a little German.\
+                        </li>\
+                        <li>Entschuldigung.und wie heißen Sie?\
+                            =excuse me,What is your name?\
+                        </li>\
+                        <li>\
+                            Ich bin Herr Yang.=I am mister Yang.\
+                        </li>\
+                        <li>\
+                            Guten tag, Herr Yang. Ich bin Alexander. Und das ist Rodrigo.\
+                            =Good afternoon mister Yang. I am Alexander and this is Rodrigo.\
+                        </li>\
+                    </ul>\
+                </blockquote>'+
+                '<div>\
+                    <h4>Quiz</h4>\
+                    <ol>\
+                        <li><input type="text">Guten Tag!Mein Name ist Peter.\
+                            Good afternoon My name is peter/</li>\
+                        <li><input type="text">Hallo.Ich bin Markus.Hello I am Marcus</li>\
+                        <li><input type="text">Wie geht es dir? How are you?</li>\
+                        <li><input type="text">Es geht mir gut! I am fine!</li>\
+                        <li><input type="text">Wie ist dein name? What is your name?</li>\
+                        <li><input type="text">Mein Name ist Stefan. My name is Stephan</li>\
+                    </ol>\
+                </div>\
+            </section>\
+        </section>',
     day04:
         '',
     day05:
