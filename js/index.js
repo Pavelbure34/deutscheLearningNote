@@ -20,6 +20,12 @@ const nav = {
         },
         day04:()=>{
             $("#mainArticle").html(pages.day04);
+        },
+        day05:()=>{
+            $("#mainArticle").html(pages.day05);
+        },
+        day06:()=>{
+            $("#mainArticle").html(pages.day06);
         }
     },
     vocabs:{
