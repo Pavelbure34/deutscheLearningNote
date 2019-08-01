@@ -339,7 +339,48 @@ const pages = {
             </section>\
         </section>',
     day04:
-        '',
+        `<h2>hello to goodbye</h2>
+        you start with... <emR>Hallo!</emR> which means <emB>hello</emB>!
+        <section>
+            <ul>
+                <caption>and the following is</caption>
+                <li><emR>Guten Morgen</emR>[gut-n Moh-g-n] = <emB>good morning</emB></li>
+                <li><emR>Guten Tag</emR>[gut-n Tah-g] = <emB>good day</emB></li>
+                <li><emR>Grüß gott</emR>[gu-hue-ss goh-t] = <emB>good day</emB></li>
+                <li><emR>Guten Abend</emR>[gut-n Abeh-nt] = <emB>good evening</emB></li>
+                <li><emR>Gute Nacht</emR>[guteh Nagh-t] = <emB>good Night</emB></li>
+            </ul>
+        </section>
+        <section>
+             <ul>
+                 <caption>In the official meeting</caption>
+                 <li><emR>Es freut mich, Sie kennenzulernen!</emR>[ ] = <emB>Nice to meet you!</emB></li>
+                 <li><emR>Herzlich wilkommen</emR>[ ] = <emB>welcome!</emB></li>
+                 <li><emR>Wie Geht es mir?</emR>[polite and casual] = <emB>How are you?</emB></li>
+                 <li><emR>Wie Geht es Ihnen?</emR>[polite] = <emB>How are you?</emB></li>
+                 <li><emR>Es geht mir sehr gut</emR>[ ] = <emB>I am fine.</emB></li>
+             </ul>
+        </section>
+        <section>
+            <ul>
+                <caption>When saying goodbye</caption>
+                <li><emR>Auf wiedersehen</emR> = <emB>good bye</emB> in person to person</li>
+                <li><emR>Auf weiderhören</emR> = <emB>good bye</emB> on the phone</li>
+                <li><emR>Bis bald</emR> = <emB>See you later</emB></li>
+                <li><emR>Kommen sie gut nach Hause</emR> = <emB>get home well</emB></li>
+                <li><emR>Tschüss</emR> = <emB>Bye</emB></li>
+            </ul>
+        </section>
+        <section>
+            <h4>TEST</h4>
+            <ol>
+                <li>Guten Tag! Wie geht es Ihnen?</li>
+                <li>Grüß gott! Danke.Es gehr mir gut.</li>
+                <li>Herzlich wilkommen!</li>
+                <li>Auf wiedersehen. Kommen sie gut nach Hause.</li>
+                <li>Bis bald!</li>
+            </ol>
+        </section>`,
     day05:
         '',
     day06:

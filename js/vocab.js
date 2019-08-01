@@ -12,9 +12,17 @@ const vocabs = {
         <div id="list2" class="floatL"></div>\
         <div class="clearB"></div>',
     day03:
-        '',
+        '<h2 class="leftText">day03 Vocab</h2>\
+        <div class="clearB"></div>\
+        <div id="list1" class="floatL"></div>\
+        <div id="list2" class="floatL"></div>\
+        <div class="clearB"></div>',
     day04:
-        '',
+        '<h2 class="leftText">day04 Vocab</h2>\
+        <div class="clearB"></div>\
+        <div id="list1" class="floatL"></div>\
+        <div id="list2" class="floatL"></div>\
+        <div class="clearB"></div>',
     day05:
         ''
 }
@@ -682,6 +690,26 @@ const vocab_db = [
                 key:5,
                 first:"Russisch",
                 second:"Noun.Russian.[Huh-schi]"
+            },
+        ]
+    },
+    {
+        id:4,
+        vocabs:[
+            {
+                key:0,
+                first:"Jemandem",
+                second:"Noun.Greeting[Ye-Mann-dem]"
+            },
+            {
+                key:1,
+                first:"verabschieden",
+                second:"Noun.Someone[Fe-ah-p-schee-den]"
+            },
+            {
+                key:2,
+                first:"Morgen",
+                second:"Noun.morning[Moh-gen]"
             },
         ]
     }

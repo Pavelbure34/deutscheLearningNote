@@ -39,9 +39,11 @@ const nav = {
         },
         day03:()=>{
             $("#mainArticle").html(vocabs.day03);
+            funcs.renderVocabList(vocab_db[2].vocabs,"list1","list2");
         },
         day04:()=>{
             $("#mainArticle").html(vocabs.day04);
+            funcs.renderVocabList(vocab_db[3].vocabs,"list1","list2");
         }
     },
     quiz:{
