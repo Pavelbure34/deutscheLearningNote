@@ -382,7 +382,84 @@ const pages = {
             </ol>
         </section>`,
     day05:
-        '',
+        `<h2>Gender, Article</h2>
+        <section>
+            <h3 class="centerText">Basic Gender</h3>
+            <ul>
+                <li>Femininum(Femenine) = die</li>
+                <li>Maskulinum(Masculine) = der</li>
+                <li>Neutrum(neutral) = das</li>
+                <li>Plural(always) = die</li>
+            </ul>
+        </section>
+        <section>
+             <h3 class="centerText">Der bestimmte Artikel(defined articles)</h3>
+             <ul>
+                 <li><emR>die Küche</emR> = <emB>the kitchen</emB>
+                     <div class="indented">
+                         ex) Das ist die Küche. -> this is the kitchen
+                     </div>
+                 </li>
+                 <li><emR>der Schrank</emR> = <emB>the cupboard</emB>
+                     <div class="indented">
+                         ex) Das ist der Schrank. -> this is the cupbard
+                     </div>
+                 </li>
+                 <li><emR>das Wohnzimmer</emR> = <emB>the livingroom</emB>
+                     <div class="indented">
+                         ex) Das ist das Wohnzimmer. -> this is the livingroom
+                     </div>
+                 </li>
+                 <li><emR>das Wohnzimmer</emR> = <emB>the livingroom</emB>
+                     <div class="indented">
+                         ex) Das ist das Wohnzimmer. -> this is the livingroom
+                     </div>
+                 </li>
+                 <li><emR>die Kinder</emR> = <emB>the children</emB>
+                     <div class="indented">
+                         From das kind = the child
+                         ex) Wo sind die Kinder? -> Where is the children?
+                     </div>
+                 </li>
+                 <li><emR>die Männer</emR> = <emB>the men</emB>
+                     <div class="indented">
+                         From der Mann =  the man.
+                         ex) Wo sind die Männer? -> Where is the men?
+                     </div>
+                 </li>          
+             </ul>
+        </section>
+        <section>
+             <h3 class="centerText">Der umbestimmte Artikel(undefined articles)</h3>
+             <ul>
+                 <li><emR>ein</emR> = <emB>"a" im maskulinum und neutrum</emB>
+                     <div class="indented">
+                         ex) Das ist ein Junge -> that is a boy.
+                     </div>
+                 </li>
+                 <li><emR>eine</emR> = <emB>"a" im femeninum</emB>
+                     <div class="indented">
+                         ex) Das sit eine Mädchen. ->  that is a girl.
+                     </div>
+                 </li>
+                 <li><emR>Remeber that there is no inderminant article in plural!</emR>
+                     <div class="indented">
+                         ex) Haben wir noch Kartoffeln? -> Do we have potates?
+                     </div>
+                 </li>
+             </ul>
+        </section>
+        <section>
+            <h4>test!</h4>
+            <ol>
+                <li>Der, die und das sind die beschtimmte<emR>n</emR> Artikel.</li>
+                <li>Ein und eine sind die umbeschtimmte<emR>n</emR> Artikel.</li>
+                <li>Die ist der beschtimmte Artikel im
+                     <emR>F</emR>emeninum und im <emR>P</emR>lural.</li>
+            </ol>
+        </section>`,
     day06:
-        '' 
+        ``,
+    day07:
+        ``
 };

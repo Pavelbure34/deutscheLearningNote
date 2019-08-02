@@ -24,7 +24,18 @@ const vocabs = {
         <div id="list2" class="floatL"></div>\
         <div class="clearB"></div>',
     day05:
-        ''
+        '<h2 class="leftText">day05 Vocab</h2>\
+        <div class="clearB"></div>\
+        <div id="list1" class="floatL"></div>\
+        <div id="list2" class="floatL"></div>\
+        <div class="clearB"></div>',
+    day06:
+        '<h2 class="leftText">day06 Vocab</h2>\
+        <div class="clearB"></div>\
+        <div id="list1" class="floatL"></div>\
+        <div id="list2" class="floatL"></div>\
+        <div class="clearB"></div>'
+    
 }
 
 const vocab_db = [
@@ -699,18 +710,108 @@ const vocab_db = [
             {
                 key:0,
                 first:"Jemandem",
-                second:"Noun.Greeting[Ye-Mann-dem]"
+                second:"Noun.Greeting.[Ye-Mann-dem]"
             },
             {
                 key:1,
                 first:"verabschieden",
-                second:"Noun.Someone[Fe-ah-p-schee-den]"
+                second:"Noun.Someone.[Fe-ah-p-schee-den]"
             },
             {
                 key:2,
                 first:"Morgen",
-                second:"Noun.morning[Moh-gen]"
+                second:"Noun.morning.[Moh-gen]"
             },
+            {
+                key:3,
+                first:"Der Genus",
+                second:"Noun.gender.[Geh-Noos]"
+            },
+            {
+                key:4,
+                first:"Die Artikel",
+                second:"Noun.Articlr.[Ah-tickle]"
+            },
+            {
+                key:5,
+                first:"Bestimmte",
+                second:"Adj.defined.[Beshutimt]"
+            },
+            {
+                key:6,
+                first:"Umbestimmte",
+                second:"Adj.undefined.[Oombeshutimt]"
+            },
+            {
+                key:7,
+                first:"Femeninum",
+                second:"Adj.femnine.[Femeninum]"
+            },
+            {
+                key:8,
+                first:"Maskulinum",
+                second:"Adj.masculine.[masukulinoom]"
+            },
+            {
+                key:9,
+                first:"Neutrum",
+                second:"Adj.neutra.l[noi-tu-hum]"
+            },
+            {
+                key:10,
+                first:"Plural",
+                second:"Adj.plural.[plu-hal]"
+            },
+            {
+                key:11,
+                first:"imma",
+                second:"Adv.Always.[ima]"
+            },
+            {
+                key:12,
+                first:"Wo",
+                second:"Adv.Where.[Vo]"
+            },
+            {
+                key:13,
+                first:"imma",
+                second:"Adv.Always.[ima]"
+            },
+            {
+                key:14,
+                first:"im",
+                second:"Adv.in.[imm]"
+            },
+            {
+                key:15,
+                first:"identisch",
+                second:"Adj.identical.[identish]"
+            },
+            {
+                key:16,
+                first:"keine/keinen",
+                second:"Adj.No from No idea.[kaine/kainen]"
+            },
+            {
+                key:17,
+                first:"Kartoffeln",
+                second:"Noun.Potato.[Kah-toh-fehn]"
+            },
+            {
+                key:18,
+                first:"Der Vater",
+                second:"Noun.father.[Fah-tah]"
+            },
+            {
+                key:19,
+                first:"die Mutter",
+                second:"Noun.mother.[Muh-ter]"
+            },
+            {
+                key:20,
+                first:"die Schule",
+                second:"Noun.school.[Shool]"
+            }
         ]
     }
 ]

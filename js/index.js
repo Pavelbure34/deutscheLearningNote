@@ -26,6 +26,9 @@ const nav = {
         },
         day06:()=>{
             $("#mainArticle").html(pages.day06);
+        },
+        day07:()=>{
+            $("#mainArticle").html(pages.day07);
         }
     },
     vocabs:{
@@ -44,6 +47,12 @@ const nav = {
         day04:()=>{
             $("#mainArticle").html(vocabs.day04);
             funcs.renderVocabList(vocab_db[3].vocabs,"list1","list2");
+        },
+        day05:()=>{
+            $("#mainArticle").html(vocabs.day05);
+        },
+        day06:()=>{
+            $("#mainArticle").html(vocabs.day06);
         }
     },
     quiz:{
