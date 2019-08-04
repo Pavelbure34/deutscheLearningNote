@@ -794,8 +794,8 @@ const vocab_db = [
             },
             {
                 key:17,
-                first:"Kartoffeln",
-                second:"Noun.Potato.[Kah-toh-fehn]"
+                first:"Kartoffel",
+                second:"Noun.Potato.[Kah-toh-fel]"
             },
             {
                 key:18,
@@ -811,6 +811,146 @@ const vocab_db = [
                 key:20,
                 first:"die Schule",
                 second:"Noun.school.[Shool]"
+            }
+        ]
+    },
+    {
+        id:5,
+        vocabs:[
+            {
+                key:0,
+                first:"",
+                second:"Noun..[]"
+            },
+            {
+                key:1,
+                first:"Frisch",
+                second:"Adj.fresh.[Frish]"
+            },
+            {
+                key:2,
+                first:"süß",
+                second:"Adj.sweet.[zoos]"
+            },
+            {
+                key:3,
+                first:"lecker",
+                second:"Adj.tasty.[lackeh]"
+            },
+            {
+                key:4,
+                first:"Das Tier",
+                second:"Noun.animal.[ti-ah]"
+            },
+            {
+                key:5,
+                first:"Das Haustier",
+                second:"Noun.pet.[hous-ti-ah]"
+            },
+            {
+                key:6,
+                first:"der Bär",
+                second:"Noun.bear.[bea-ah]"
+            },
+            {
+                key:7,
+                first:"Die Katze",
+                second:"Noun.the cat.[Kaat-zeh]"
+            },
+            {
+                key:8,
+                first:"Die Maus",
+                second:"Noun.the mouse.[mouse]"
+            },
+            {
+                key:9,
+                first:"Der Hund",
+                second:"Noun.the dog.[Hoont]"
+            },
+            {
+                key:10,
+                first:"Das Schwein",
+                second:"Noun.the pig.[Shu-vah-in]"
+            },
+            {
+                key:11,
+                first:"Das Pferd",
+                second:"Noun.the house.[fe-ah-ht]"
+            },
+            {
+                key:12,
+                first:"Der Vogel",
+                second:"Noun.the bird.[fo-gle]"
+            },
+            {
+                key:13,
+                first:"Die Ente",
+                second:"Noun.the duck.[en-teh]"
+            },
+            {
+                key:14,
+                first:"Die Kuh",
+                second:"Noun.the cow.[coo]"
+            },
+            {
+                key:15,
+                first:"Das Essen",
+                second:"Noun.the food.[Esen]"
+            },
+            {
+                key:16,
+                first:"Der Fisch",
+                second:"Noun.the fish.[fish]"
+            },
+            {
+                key:17,
+                first:"Die Suppe",
+                second:"Noun.the soup.[zoo-peh]"
+            },
+            {
+                key:18,
+                first:"Der Apfel",
+                second:"Noun.the apple.[aap-fel]"
+            },
+            {
+                key:19,
+                first:"Verstehen",
+                second:"Verb.to understand.[Fah-shu-teen]"
+            },
+            {
+                key:20,
+                first:"Essen",
+                second:"Verb.to eat.[Esen]"
+            },
+            {
+                key:21,
+                first:"sprechen",
+                second:"Verb.To speak.[shu-peh-hen]"
+            },
+            {
+                key:22,
+                first:"Das Durst",
+                second:"Noun.thirst.[doo-ah-st]"
+            },
+            {
+                key:23,
+                first:"Das Bier",
+                second:"Noun.beer.[bee-ah]"
+            },
+            {
+                key:24,
+                first:"Der Tee",
+                second:"Noun.the tea.[tea]"
+            },
+            {
+                key:25,
+                first:"Der kaffee",
+                second:"Noun.the coffee.[kah-fee]"
+            },
+            {
+                key:26,
+                first:"Der Wein",
+                second:"Noun.the wine.[vah-in]"
             }
         ]
     }

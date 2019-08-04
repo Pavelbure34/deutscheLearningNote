@@ -459,7 +459,50 @@ const pages = {
             </ol>
         </section>`,
     day06:
-        ``,
+        `<h2>Woher Kommst du?</h2>
+        <section>
+            <blockquote>
+                 Where are you from?
+            </blockquote>
+            and the response is <br>
+            <emR>Ich komme aus [country name]</emR> = <emB>I am from ~</emB><br>
+            It does not matter whether it is city, province, region or country.
+            <ul>
+                <caption>Ich Komme aus</caption>
+                <li>(Das) Deutschland = Germany</li>
+                <li>(Das) Frankreich = France</li>
+                <li>(Das) Österreich = Austria</li>
+                <li>(Das) China = China</li>
+                <li>(Das) Großbritannien = great Britain</li>
+                <li>(Das) Spanien = Spain</li>
+                <li>(Das) Portugal = Portugal</li>
+                <li>(Das) Kanada = Kanada</li>
+                <li>(Das) Japan = Japan</li>
+                <li>die Schweiz = Switzerland</li>
+                <li>die Türkei = Turkey</li>
+                <li>der Sudan = Sudabn</li>
+                <li>der Iran = Iran</li>
+                <li>der Irak = Irak</li>
+                <li>die Vereinigten Staaten Von Amerika oder USA = America</li>
+                <li>die Niederlande aber (das)Holland = Holland(Netherland)</li>
+                <li>die Seychellen = </li>
+                <li><emR>No article in front of neutral gender countries</emR></li>
+            </ul>
+        </section>
+        <section>
+             It is also naturally followed by 
+             <blockquote>
+                 Welche Sprachen Sprichst du? = Which language do you speak?
+             </blockquote>
+             <ul>
+                 <caption>Ich spreche</caption>
+                 <li>Deutsch = German</li>
+                 <li>Englisch = English</li>
+                 <li>Japanisch = Japanese</li>
+                 <li>Französish = French</li>
+                 <li>Chinesisch = Chinese</li>
+             </ul>
+        </section>`,
     day07:
         ``
 };

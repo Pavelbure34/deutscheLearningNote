@@ -50,6 +50,7 @@ const nav = {
         },
         day05:()=>{
             $("#mainArticle").html(vocabs.day05);
+            funcs.renderVocabList(vocab_db[4].vocabs,"list1","list2");
         },
         day06:()=>{
             $("#mainArticle").html(vocabs.day06);
