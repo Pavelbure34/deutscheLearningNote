@@ -504,5 +504,53 @@ const pages = {
              </ul>
         </section>`,
     day07:
+        `<h2>Welche Sprechen sprichst du?</h2>
+        <section>
+            <h3 class="centerText">Die Sprachen</h3>
+            <section class="indented">
+                <div class="clearB"></div>
+                <div class="floatL">
+                    <h4>Suffix mit "isch"</h4>
+                    <ul>
+                        <li><emR>Englisch</emR> === <emB>English</emB></li>
+                        <li><emR>Französisch</emR> === <emB>French</emB></li>
+                        <li><emR>Spanisch</emR> === <emB>Spanish</emB></li>
+                        <li><emR>Italienisch</emR> === <emB>Italian</emB></li>
+                        <li><emR>Finnisch</emR> === <emB>Finnish</emB></li>
+                        <li><emR>Chinesisch</emR> === <emB>Chinese</emB></li>
+                        <li><emR>Japanisch</emR> === <emB>Japanese</emB></li>
+                        <li><emR>Koreanisch</emR> === <emB>Korean</emB></li>
+                        <li><emR>Vietnamesisch</emR> === <emB>Vietnamese</emB></li>
+                        <li><emR>Russisch</emR> === <emB>Russian</emB></li>
+                    </ul>
+                    <ul>
+                        <caption>Aber...</caption>
+                        <ul>
+                            <li><emR>Hindi</emR> === <emB>Hindi</emB></li>
+                            <li><emR>Deutsch</emR> === <emB>German</emB></li>
+                            <li><emR>Paschtu</emR> === <emB>language in Pakistan</emB></li>
+                            <li><emR>Urdu</emR> === <emB>language in Pakistan</emB></li>
+                            <li><emR>Farsi</emR> === <emB>language in Pakistan</emB></li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="floatL">
+                    <h4>Quiz</h4>
+                    <ol>
+                        <li>Woher kommst du? === where are you from?</li>
+                        <li>Ich komme aus Deutschland, Ich komme aus den USA, und ich komme aus der Schweiz.</li>
+                        <li>Welche Sprachen sprichst du?</li>
+                        <li>Ich spreche Deutsch, Französisch, und ein <emR>bisschen</emR> Chinnesisch</li>
+                        <li>Sprichst du Vietnamesisch oder Japanisch?</li>
+                    </ol>
+                </div>
+                <div class="clearB"></div>
+            </section>
+        </section>`,
+    day08:
+        ``,
+    day09:
+        ``,
+    day10:
         ``
 };

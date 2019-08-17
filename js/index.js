@@ -33,27 +33,32 @@ const nav = {
     },
     vocabs:{
         day01:()=>{
-            $("#mainArticle").html(vocabs.day01);
+            $("#mainArticle").html(vocabs.day01());
             funcs.renderVocabList(vocab_db[0].vocabs,"list1","list2");
         },
         day02:()=>{
-            $("#mainArticle").html(vocabs.day02);
+            $("#mainArticle").html(vocabs.day02());
             funcs.renderVocabList(vocab_db[1].vocabs,"list1","list2");
         },
         day03:()=>{
-            $("#mainArticle").html(vocabs.day03);
+            $("#mainArticle").html(vocabs.day03());
             funcs.renderVocabList(vocab_db[2].vocabs,"list1","list2");
         },
         day04:()=>{
-            $("#mainArticle").html(vocabs.day04);
+            $("#mainArticle").html(vocabs.day04());
             funcs.renderVocabList(vocab_db[3].vocabs,"list1","list2");
         },
         day05:()=>{
-            $("#mainArticle").html(vocabs.day05);
+            $("#mainArticle").html(vocabs.day05());
             funcs.renderVocabList(vocab_db[4].vocabs,"list1","list2");
         },
         day06:()=>{
-            $("#mainArticle").html(vocabs.day06);
+            $("#mainArticle").html(vocabs.day06());
+            funcs.renderVocabList(vocab_db[5].vocabs,"list1","list2");
+        },
+        day07:()=>{
+            $("#mainArticle").html(vocabs.day07());
+            funcs.renderVocabList(vocab_db[6].vocabs,"list1","list2");
         }
     },
     quiz:{

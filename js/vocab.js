@@ -1,41 +1,19 @@
 const vocabs = {
-    day01:
-        '<h2 class="leftText">day01 Vocab</h2>\
-        <div class="clearB"></div>\
-        <div id="list1" class="floatL"></div>\
-        <div id="list2" class="floatL"></div>\
-        <div class="clearB"></div>',
-    day02:
-        '<h2 class="leftText">day02 Vocab</h2>\
-        <div class="clearB"></div>\
-        <div id="list1" class="floatL"></div>\
-        <div id="list2" class="floatL"></div>\
-        <div class="clearB"></div>',
-    day03:
-        '<h2 class="leftText">day03 Vocab</h2>\
-        <div class="clearB"></div>\
-        <div id="list1" class="floatL"></div>\
-        <div id="list2" class="floatL"></div>\
-        <div class="clearB"></div>',
-    day04:
-        '<h2 class="leftText">day04 Vocab</h2>\
-        <div class="clearB"></div>\
-        <div id="list1" class="floatL"></div>\
-        <div id="list2" class="floatL"></div>\
-        <div class="clearB"></div>',
-    day05:
-        '<h2 class="leftText">day05 Vocab</h2>\
-        <div class="clearB"></div>\
-        <div id="list1" class="floatL"></div>\
-        <div id="list2" class="floatL"></div>\
-        <div class="clearB"></div>',
-    day06:
-        '<h2 class="leftText">day06 Vocab</h2>\
-        <div class="clearB"></div>\
-        <div id="list1" class="floatL"></div>\
-        <div id="list2" class="floatL"></div>\
-        <div class="clearB"></div>'
-    
+    template:(title)=>`<h2 class="leftText">${title}</h2>
+        <div class="clearB"></div>
+        <div id="list1" class="floatL"></div>
+        <div id="list2" class="floatL"></div>
+        <div class="clearB"></div>`,
+    day01:()=>vocabs.template("day01 Vocab"),
+    day02:()=>vocabs.template("day02 Vocab"),
+    day03:()=>vocabs.template("day03 Vocab"),
+    day04:()=>vocabs.template("day04 Vocab"),
+    day05:()=>vocabs.template("day05 Vocab"),
+    day06:()=>vocabs.template("day06 Vocab"),
+    day07:()=>vocabs.template("day07 Vocab"),
+    day08:()=>vocabs.template("day08 Vocab"),
+    day09:()=>vocabs.template("day09 Vocab"),
+    day10:()=>vocabs.template("day10 Vocab"),
 }
 
 const vocab_db = [
@@ -818,11 +796,6 @@ const vocab_db = [
         id:5,
         vocabs:[
             {
-                key:0,
-                first:"",
-                second:"Noun..[]"
-            },
-            {
                 key:1,
                 first:"Frisch",
                 second:"Adj.fresh.[Frish]"
@@ -951,6 +924,26 @@ const vocab_db = [
                 key:26,
                 first:"Der Wein",
                 second:"Noun.the wine.[vah-in]"
+            }
+        ]
+    },
+    {
+        id:6,
+        vocabs:[
+            {
+                key:0,
+                first:"",
+                second:"Noun..[]"
+            },
+            {
+                key:1,
+                first:"Die Sprachen",
+                second:"Noun.the language.[Shu-pa-khen]"
+            },
+            {
+                key:2,
+                first:"Aber",
+                second:"Conjunction.but.[Abeh]"
             }
         ]
     }
